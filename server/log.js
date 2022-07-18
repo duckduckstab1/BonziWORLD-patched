@@ -2,7 +2,7 @@ const Winston = require('winston');
 const path = require('path');
 const settings = require("./settings.json");
 const fs = require('fs-extra');
-
+// please remove me
 var loggers = {};
 
 exports.init = function() {
